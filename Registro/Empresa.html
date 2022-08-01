@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../css/estilo4.css" />
+<link rel="icon" type="image/png" href="../img//icon.png"/>
+<title>Registro De Empresa</title>
+</head>
+<body>
+
+	<div class="container">
+		<div class="form__top">
+			<h2>Formulario <span>Administrativos</span></h2>
+		</div>		
+
+		    <form class="form__reg" action="../php/Empresa/Empresa.php" method="POST">
+			<input class="input" type="text" name = "NIT_EMPRESA" placeholder="&#128100;  Nit De La Empresa" required autofocus>
+			<input class="input" type="text" name = "NOMBRE_EMPRESA" placeholder="&#128100;  Nombre De La Empresa" required >
+			<input class="input" type="text" name = "DIRECCION_EMPRESA" placeholder="&#127758;  Direccion" required>
+			<input class="input" type="text" name = "TELEFONO" placeholder="&#128451; Telefono" required>
+			<input class="input" type="text" name = "PAIS_EMPRESA" placeholder="&#127758;  pais" required>
+			<input class="input" type="email" name = "CORREO" placeholder="&#9993; correo" required>
+			<input class="input" type="password" name = "CONTRASEÑA" placeholder="&#128172;  Contraseña" required>
+			
+
+            <div class="btn__form">
+			<input class="btn__submit" type="submit" value="REGISTRAR">
+		</div>
+	  </form>
+	</div>
+  </body>
+</html>
